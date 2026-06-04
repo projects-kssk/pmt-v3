@@ -1,12 +1,12 @@
 [submodule "distributor"]
-	path = distributor
-	url = https://github.com/MayerAttila/distributor.git
+	path = distributor-service
+	url = https://github.com/MayerAttila/distributor-service.git
 [submodule "auth-service"]
 	path = auth-service
 	url = https://github.com/MayerAttila/auth-service.git
 [submodule "product"]
-	path = product
-	url = https://github.com/MayerAttila/product.git
+	path = product-service
+	url = https://github.com/MayerAttila/product-service.git
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/MayerAttila/frontend.git
