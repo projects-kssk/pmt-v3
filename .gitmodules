@@ -1,0 +1,6 @@
+[submodule "distributor"]
+	path = distributor
+	url = https://github.com/MayerAttila/distributor.git
+[submodule "auth-service"]
+	path = auth-service
+	url = https://github.com/MayerAttila/auth-service.git
