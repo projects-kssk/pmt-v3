@@ -1,12 +1,12 @@
-[submodule "distributor-service"]
-	path = distributor-service
-	url = https://github.com/projects-kssk/distributor-service.git
-[submodule "auth-service"]
-	path = auth-service
-	url = https://github.com/projects-kssk/auth-service.git
-[submodule "product-service"]
-	path = product-service
-	url = https://github.com/projects-kssk/product-service.git
-[submodule "frontend"]
-	path = frontend
-	url = https://github.com/projects-kssk/frontend.git
+[submodule "web-auth-service"]
+	path = web-auth-service
+	url = https://github.com/projects-kssk/web-auth-service
+[submodule "web-gateway-service"]
+	path = web-gateway-service
+	url = https://github.com/projects-kssk/web-gateway-service
+[submodule "pmt-v3-frontend"]
+	path = pmt-v3-frontend
+	url = https://github.com/projects-kssk/pmt-v3-frontend
+[submodule "pmt-v3-product-service"]
+	path = pmt-v3-product-service
+	url = https://github.com/projects-kssk/pmt-v3-product-service
