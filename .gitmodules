@@ -10,3 +10,9 @@
 [submodule "pmt-v3-product-service"]
 	path = pmt-v3-product-service
 	url = https://github.com/projects-kssk/pmt-v3-product-service
+[submodule "pmt-v3-inventory-service"]
+	path = pmt-v3-inventory-service
+	url = https://github.com/projects-kssk/pmt-v3-inventory-service
+[submodule "pmt-v3-production-service"]
+	path = pmt-v3-production-service
+	url = https://github.com/projects-kssk/pmt-v3-production-service
