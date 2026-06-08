@@ -1,0 +1,64 @@
+[mcp_servers.postgres-pmt-v3-products]
+command = "node"
+args = ["C:\\Users\\mayer\\OneDrive\\Desktop\\pmt-v3\\.codex\\start-postgres-pmt-v3-products.mjs"]
+env_vars = [
+  "DB_HOST",
+  "DB_PORT",
+  "DB_USER",
+  "DB_PASSWORD",
+  "POSTGRES_STATEMENT_TIMEOUT_MS",
+  "POSTGRES_MAX_ROWS",
+  "POSTGRES_POOL_MAX",
+  "POSTGRES_SSL_REJECT_UNAUTHORIZED",
+]
+
+[mcp_servers.postgres-pmt-v3-products.tools.pg_query]
+approval_mode = "approve"
+
+[mcp_servers.postgres-pmt-v3-inventory]
+command = "node"
+args = ["C:\\Users\\mayer\\OneDrive\\Desktop\\pmt-v3\\.codex\\start-postgres-pmt-v3-inventory.mjs"]
+env_vars = [
+  "DB_HOST",
+  "DB_PORT",
+  "DB_USER",
+  "DB_PASSWORD",
+  "POSTGRES_STATEMENT_TIMEOUT_MS",
+  "POSTGRES_MAX_ROWS",
+  "POSTGRES_POOL_MAX",
+  "POSTGRES_SSL_REJECT_UNAUTHORIZED",
+]
+
+[mcp_servers.postgres-pmt-v3-inventory.tools.pg_query]
+approval_mode = "approve"
+
+[mcp_servers.postgres-pmt-v3-production]
+command = "node"
+args = ["C:\\Users\\mayer\\OneDrive\\Desktop\\pmt-v3\\.codex\\start-postgres-pmt-v3-production.mjs"]
+env_vars = [
+  "DB_HOST",
+  "DB_PORT",
+  "DB_USER",
+  "DB_PASSWORD",
+  "POSTGRES_STATEMENT_TIMEOUT_MS",
+  "POSTGRES_MAX_ROWS",
+  "POSTGRES_POOL_MAX",
+  "POSTGRES_SSL_REJECT_UNAUTHORIZED",
+]
+
+[mcp_servers.postgres-pmt-v3-production.tools.pg_query]
+approval_mode = "approve"
+
+[mcp_servers.postgres-pmt-v2-dev]
+command = "node"
+args = ["C:\\Users\\mayer\\OneDrive\\Desktop\\pmt-v3\\.codex\\start-postgres-pmt-v2-dev.mjs"]
+env_vars = [
+  "USERPROFILE",
+  "POSTGRES_STATEMENT_TIMEOUT_MS",
+  "POSTGRES_MAX_ROWS",
+  "POSTGRES_POOL_MAX",
+  "POSTGRES_SSL_REJECT_UNAUTHORIZED",
+]
+
+[mcp_servers.postgres-pmt-v2-dev.tools.pg_query]
+approval_mode = "approve"
